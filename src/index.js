@@ -1,4 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Diego from './Diego';
 
-ReactDOM.render( <h1>Olá Mundo!</h1>, document.getElementById("root") );
+ReactDOM.render( <Diego livia="Danielle" />, document.getElementById("root") );
